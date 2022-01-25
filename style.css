@@ -121,10 +121,51 @@ hr{
     align-items: center;
     height: 70px;
     width: 300px;
-    background-color: #fff;
 }
 .Btn{
     height: 60px;
     width: 60px;
     cursor: pointer;
+}
+.Music-Mobi{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .inner-container{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        margin: 20px;
+        height: 92vh;
+        width: 93vw;
+    }
+    .Music{
+        width: 90vw;
+        height: 80vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Music-left,.Music-right{
+        display: none;
+    }
+    .Music-Mobi{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        background-color: rgb(29, 15, 15);
+        margin-bottom: 10px;
+    }
+    .Music-Box{
+        width: 90vw;
+        height: 60vh;
+        background-color: rgb(19, 18, 100);
+    }
+    .img{
+        height: 75px;
+        width: 75px;
+    }
 }
