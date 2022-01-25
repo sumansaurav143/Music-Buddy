@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="rgb"></div>
+        <div class="inner-container">
+            <h1 id="appName">🎵 Music Buddy 🎵</h1>
+            <hr>
+            <div class="Music">
+                <div class="Music-left">
+                    <img class="img" onclick="LoadMusic(0)" src="friends.jpg">
+                    <h5 class="text">FRIENDS</h5>
+                    <img class="img" onclick="LoadMusic(1)" src="montero.jpg">
+                    <h5 class="text">MONTERO</h5>
+                    <img class="img" onclick="LoadMusic(2)" src="stay.jpg">
+                    <h5 class="text">STAY</h5>
+                </div>
+                <div class="Music-Box">
+                    <div class="Cover">
+                        <img class="Cover-img" src="friends.jpg">
+                    </div>
+                    <div class="text2">SONG NAME</div>
+                    <div class="Music-Btn">
+                        <img id="Back" onclick="Back()" class="Btn" src="Back.png">
+                        <img id="Play" onclick="PlayPause()" class="Btn" src="Play.png">
+                        <img id="Next" onclick="Next()" class="Btn" src="Next.png">
+                    </div>
+                </div>
+                <div class="Music-right">
+                    <img class="img" onclick="LoadMusic(3)" src="unstappable.jpg">
+                    <h5 class="text">UNSTOPPABLE</h5>
+                    <img class="img" onclick="LoadMusic(4)" src="love_nwantiti.jpg">
+                    <h5 class="text">lOVE NWANTITI</h5>
+                    <img class="img" onclick="LoadMusic(0)" src="friends.jpg">
+                    <h5>FRIENDS</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rgb"></div>
+    <script src="music.js"></script>
+</body>
+
+</html>

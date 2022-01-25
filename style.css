@@ -1,0 +1,130 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.rgb {
+	background: linear-gradient(-45deg, red,blue,green,#ee7752, blue, #e73c7e,green,red,yellow, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 8px;
+}
+#container{
+	height: 98.7vh;
+	width: 100vw;
+	background-color: black;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.inner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 20px;
+    height: 92vh;
+	width: 97.5vw;
+    background-color: rgb(54, 14, 165);
+}
+.Music{
+    display: flex;
+    width: 92vw;
+    justify-content: space-between;
+}
+.Music-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+	width: 55vw;
+    border-radius: 10px;
+    background-color: black;
+}
+.Music-left,.Music-right{
+    height: 80vh;
+	width: 17.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(38, 25, 97);
+}
+.img{
+    height: 155px;
+    width: 155px;
+    cursor: pointer;
+}
+h5{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: white;
+}
+hr{
+    width: 97.5vw;
+    height: 3px;
+    background-color: black;
+    border: none;
+    margin-bottom: 5px;
+}
+#appName{
+    height: 65px;
+    width: 92vw;
+    border-radius: 5px;
+    color: blanchedalmond;
+    margin-bottom: 4px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(
+        #fd004c,
+        #fe9000,
+        #fff020,
+        #3edf4b,
+        #3363ff,
+        #b102b7,
+        #fd004c);
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.Cover-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+.text2{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.Music-Btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    background-color: #fff;
+}
+.Btn{
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
